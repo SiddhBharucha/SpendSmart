@@ -19,6 +19,3 @@ db().then(() => {
 }).catch((error) => {
   console.error('DB Connection Error:', error);
 });
-
-
-// Hello word
