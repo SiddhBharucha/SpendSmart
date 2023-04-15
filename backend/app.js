@@ -1,10 +1,11 @@
 
+
 require('dotenv').config()
 
-const PORT 
+const PORT = process.env.PORT
 
 const server = () => {
-
+  console.log('You are listening tp port:', PORT)
 }
 
 server()
